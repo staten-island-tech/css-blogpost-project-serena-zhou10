@@ -1,0 +1,19 @@
+body{
+    background-color:rgb(216, 218, 209);
+}
+
+h1{
+    text-align: center;
+    margin: 50px;
+    width: 50vw;
+}
+
+img{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+}
+
+button{
+    background-color: black;
+}
