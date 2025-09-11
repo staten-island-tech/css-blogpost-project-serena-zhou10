@@ -39,29 +39,32 @@ h1 {
     font-size: 3rem;
     text-align: center;
 }
+
 h2 {
     font-size: 10rem;
     text-align: center;
 }
+
 h6 {
-    font-size:5rem;
+    font-size: 5rem;
     text-align: center;
 }
 
 /*image*/
 .img-container {
-  width: 30rem;
-  height: 30rem;
-  margin: 1rem auto;
-  background-color: #fff;
-  border-radius: 1rem;
-  box-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.5);
+    width: 30rem;
+    height: 30rem;
+    margin: 1rem auto;
+    background-color: #fff;
+    border-radius: 1rem;
+    box-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.5);
 }
+
 .img {
-  border-radius: 1rem;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+    border-radius: 1rem;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 /*button*/
@@ -69,24 +72,24 @@ button {
     background-color: rgb(102, 102, 102);
 }
 
-/*padding
+/*padding*/
 .parent {
-  width: 50rem;
-  height: 50rem;
-  background-color: #fff;
-  padding: 1rem 0.5rem;
+    width: 50rem;
+    height: 50rem;
+    background-color: #fff;
+    padding: 1rem 0.5rem;
 }
 
-/*margin
+/*margin*/
 .child-one {
-  width: 20rem;
-  height: 20rem;
-  background-color: black;
-  margin: 1rem auto;
+    width: 20rem;
+    height: 20rem;
+    background-color: black;
+    margin: 1rem auto;
 }
+
 .child-two {
-  width: 20rem;
-  height: 20rem;
-  background-color: rgb(102, 102, 102);
+    width: 20rem;
+    height: 20rem;
+    background-color: rgb(102, 102, 102);
 }
-*/
