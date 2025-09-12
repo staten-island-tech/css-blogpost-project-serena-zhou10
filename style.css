@@ -71,6 +71,11 @@ p {
   line-height: 2rem;
 }
 
+.post a {
+font-size: 2rem;
+text-align: center;
+line-height: 8rem;
+}
 
 /*image*/
 
