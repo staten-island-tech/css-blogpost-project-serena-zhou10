@@ -15,7 +15,7 @@ body {
   background-color: rgb(234, 230, 223);
 }
 
-/*header and title*/
+/*blog content*/
 .blog {
   padding: 2rem;
   background: white;
@@ -58,17 +58,16 @@ body {
   line-height: 8rem;
   display: inline-block;
   margin-top: 1rem;
-  color: rgb(175,159,140);
+  color: rgb(175, 159, 140);
   text-decoration: none;
 }
 
-.post__link:hover{
+.post__link:hover {
   color: rgb(114, 103, 88);
   text-decoration: underline;
 }
 
 /*image*/
-
 .img {
   border-radius: 1rem;
   width: 40rem;
@@ -78,6 +77,7 @@ body {
   margin-right: auto;
 }
 
+/*post layout*/
 .post {
   background-color: white;
   padding: 10rem;
