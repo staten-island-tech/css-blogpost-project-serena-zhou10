@@ -22,7 +22,8 @@ body {
   text-align: center;
   background: #85837b;
 }
-.header {
+
+.blog {
   padding: 20px;
   font-size: 10rem;
   text-align: center;
@@ -42,13 +43,13 @@ h2 {
 }
 
 h3 {
-  font-size: 3rem;
+  font-size: 5rem;
   text-align: center;
-  line-height: 3rem;
+  line-height: 7rem;
 }
 
 h4 {
-  font-size: 1.5rem;
+  font-size: 3rem;
   text-align: center;
   line-height: 3rem;
 }
@@ -59,12 +60,6 @@ h5 {
   line-height: 3rem;
 }
 
-h6 {
-  font-size: 5rem;
-  text-align: center;
-  line-height: 7rem;
-}
-
 p {
   font-size: 2rem;
   text-align: center;
@@ -72,9 +67,9 @@ p {
 }
 
 .post a {
-font-size: 2rem;
-text-align: center;
-line-height: 8rem;
+  font-size: 2rem;
+  text-align: center;
+  line-height: 8rem;
 }
 
 /*image*/
