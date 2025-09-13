@@ -11,65 +11,60 @@ body,
 
 body {
   font-family: "Outfit", sans-serif;
-  padding: 20px;
+  padding: 2rem;
   background-color: rgb(234, 230, 223);
 }
 
 /*header and title*/
-.title {
-  padding: 20px;
-  font-size: 10rem;
-  text-align: center;
-  background: #85837b;
-}
-
 .blog {
-  padding: 20px;
-  font-size: 10rem;
-  text-align: center;
+  padding: 2rem;
   background: white;
+  margin-bottom: 4rem;
 }
 
-h1 {
+.blog__website {
   font-size: 4rem;
-  text-align: center;
   line-height: 8rem;
 }
 
-h2 {
+.post__title {
   font-size: 10rem;
-  text-align: center;
   line-height: 8rem;
 }
 
-h3 {
+.blog__topic {
   font-size: 5rem;
-  text-align: center;
   line-height: 7rem;
+  color: #555;
 }
 
-h4 {
+.post__foodname {
   font-size: 3rem;
-  text-align: center;
   line-height: 3rem;
 }
 
-h5 {
+.post__published {
   font-size: 1rem;
-  text-align: center;
   line-height: 3rem;
 }
 
-p {
+.post__content {
   font-size: 2rem;
-  text-align: center;
   line-height: 2rem;
 }
 
-.post a {
+.post__link {
   font-size: 2rem;
-  text-align: center;
   line-height: 8rem;
+  display: inline-block;
+  margin-top: 1rem;
+  color: rgb(175,159,140);
+  text-decoration: none;
+}
+
+.post__link:hover{
+  color: rgb(114, 103, 88);
+  text-decoration: underline;
 }
 
 /*image*/
@@ -87,8 +82,10 @@ p {
   background-color: white;
   padding: 10rem;
   margin-top: 10rem;
-  width: 100rem;
-  height: 90rem;
+  max-width: 800px;
+  width: 90%;
+  height: auto;
   margin-left: auto;
   margin-right: auto;
+  box-shadow: 0 1px 4px rgb(150, 150, 150);
 }
